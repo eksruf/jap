@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<script>
+	var kor =111
+		function test(){
+			let kor =95 //let은 재선언(var 등) 불가능 
+			 kor = 100 //var가 없으면 전역변수
+			document.write(kor+'호출')
+			return '돌려주는 값'
+		}
+		 var re = test() //객체선언이 없으면 먼저 함수 안의 전역변수를 쓸 수 없음
+		document.write(kor+'호출') //함수 밖에서 만들면 변수 사용가능(전역변수) 함수 안 생성은 안됨
+		
+		
+		
+		
+		
+	</script>
+
+
+
+
+
+</body>
+</html>

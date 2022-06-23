@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+
+	var num = prompt('아파트 층 수 입력')
+	document.write('<table border="1">')
+	
+	for(;num>0;num--){
+	
+	document.write('<tr>')
+	//document.write('<td>'+i+'01호</td><td>'+i+'02호</td><td>'+i+'03호</td><td>'+i+'04호</td>')
+	for(j=1;j<5;j++){document.write("<td>"+(num*100+j)+"호</td>")}
+	document.write("</tr>")
+	
+	}
+document.write('</table>')
+
+
+
+</script>
+
+</body>
+</html>

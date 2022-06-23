@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ 	<script type="text/javascript">
+ 	 	var city =['서울','부산','인천']
+ 	 	city[3]='다른값' //그냥 집어넣으면 들어감
+ 	 	function printArr(){
+ 	 		for(i=0;i<city.length;i++){
+ 	 			document.write(city[i]+",")
+ 	 		}
+ 	 	}
+ 	 	printArr()
+ 	 	
+ 	 	var joinDate = city.join('/')  //배열 중간에 원하는 값 삽입
+ 	 	document.write(joinDate+"<hr>")
+ 	 	
+ 	 	var arr=[111,222,333]
+ 	 	var concatArr = arr.concat(city)
+ 	 	document.write(concatArr+"<hr>")
+ 	 	
+ 	 	arr.push('안녕하세요') //마지막 값을 기준으로 입력값을 삽입
+ 	 	document.write(arr+"<hr>")
+ 	 	
+ 	 	arr.pop() //마지막 값을 기준으로 뺀다.
+ 	 	document.write(arr+"<hr>")
+ 	 	
+ 	 	arr.unshift("안녕","하세요")
+ 	 	document.write(arr+"<hr>")
+ 	 	
+ 	 	arr.shift()
+ 	 	document.write(arr+"<hr>")
+ 	 	
+ 	</script>
+
+
+
+
+
+
+
+</body>
+</html>
